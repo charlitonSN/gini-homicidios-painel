@@ -71,9 +71,8 @@ A análise econométrica original foi feita em **Stata** (`codigo/stata/codigos.
 
 A pequena diferença é compatível com atualizações das bases do Our World in Data. Os Modelos 2 a 5 dependem de bases (matrícula, democracia, pobreza e gasto em educação) cujos arquivos brutos não foram preservados.
 
-## Observações sobre o código original
+## Observações sobre o código e os dados
 
-- No bloco do índice de Gini, a versão original do `codigos.do` renomeava a variável para `exp_vida` e depois rotulava `gini`, o que interrompia a execução. O nome foi corrigido para `gini`.
 - O arquivo `pop_prisional.xls` baixado contém o indicador de **desemprego** (SL.UEM.TOTL.NE.ZS), e não população prisional.
 - O do-file cobre apenas a preparação das bases; as etapas de junção e estimação estão descritas no relatório.
 
