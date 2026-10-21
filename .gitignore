@@ -1,0 +1,17 @@
+# Dados não são versionados (ver dados/README.md)
+dados/brutos/
+dados/processados/
+*.csv
+*.xls
+*.xlsx
+*.dta
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Stata / Office
+*.log
+*.smcl
+~$*
