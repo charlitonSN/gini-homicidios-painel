@@ -13,8 +13,6 @@ do-file original.
 
 Diferenças em relação ao do-file:
   * caminhos relativos ao repositório, em vez de "C:\\trabalho_econometria";
-  * na base do índice de Gini, o do-file renomeia a variável para `exp_vida` e, em
-    seguida, tenta rotular `gini` (o que interrompe o Stata). Aqui ela se chama `gini`;
   * nas planilhas .xls do World Bank, as linhas de cabeçalho ("Last Updated Date",
     "Country Code", linha vazia) são descartadas antes do reshape.
 

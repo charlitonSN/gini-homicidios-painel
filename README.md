@@ -73,7 +73,7 @@ A pequena diferença é compatível com atualizações das bases do Our World in
 
 ## Observações sobre o código original
 
-- No bloco do índice de Gini, o `codigos.do` renomeia a variável para `exp_vida` e depois rotula `gini`, o que interrompe a execução. A versão Python usa `gini`.
+- No bloco do índice de Gini, a versão original do `codigos.do` renomeava a variável para `exp_vida` e depois rotulava `gini`, o que interrompia a execução. O nome foi corrigido para `gini`.
 - O arquivo `pop_prisional.xls` baixado contém o indicador de **desemprego** (SL.UEM.TOTL.NE.ZS), e não população prisional.
 - O do-file cobre apenas a preparação das bases; as etapas de junção e estimação estão descritas no relatório.
 

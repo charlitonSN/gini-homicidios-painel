@@ -130,7 +130,7 @@ clear all
 import delimited "C:\trabalho_econometria\dados_originais\gini.csv"
 rename country pais
 rename year ano
-rename ginicoefficientbeforetaxworldine exp_vida
+rename ginicoefficientbeforetaxworldine gini
 label variable gini "Indice de Gini"
 save "C:\trabalho_econometria/gini.dta", replace
 
